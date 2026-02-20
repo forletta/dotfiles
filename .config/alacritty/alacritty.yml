@@ -1,0 +1,17 @@
+live_config_reload: true
+
+import:
+ - ~/.config/alacritty/themes/themes/gruvbox_material_medium_dark.yaml
+
+window:
+  padding:
+    x: 10
+    y: 8
+  startup_mode: Fullscreen
+
+font:
+  normal:
+    family: "SFMono Nerd Font"
+    style: Regular
+  size: 16.0
+  option_as_alt: both

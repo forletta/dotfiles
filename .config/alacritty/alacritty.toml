@@ -1,0 +1,26 @@
+[general]
+live_config_reload = true
+import = [
+    "~/.config/alacritty/themes/themes/everforest_dark.toml"
+]
+
+[env]
+PATH="/opt/homebrew/bin:$HOME/.cargo/bin"
+
+[window]
+padding = { x = 5, y = 5 }
+decorations = "None"
+startup_mode = "FullScreen"
+option_as_alt = "Both"
+
+[font]
+size = 15.0
+normal = { family = "SFMono Nerd Font", style = "Regular" }
+bold = { family = "SFMono Nerd Font", style = "Semibold" }
+bold_italic = { family = "SFMono Nerd Font", style = "Semibold Italic" }
+
+[mouse]
+hide_when_typing = true
+
+[terminal.shell]
+program = "tmux"

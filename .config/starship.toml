@@ -1,0 +1,12 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+[┎──╼](white) $directory ([╾╼](white) $git_branch) ($git_status)
+[┖─╸](white)
+"""
+
+[directory]
+format = "[$path]($style)[$read_only]($read_only_style)"
+
+[git_branch]
+format = "[$symbol$branch(:$remote_branch)]($style)"
