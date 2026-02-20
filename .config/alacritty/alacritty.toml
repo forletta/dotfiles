@@ -24,3 +24,34 @@ hide_when_typing = true
 
 [terminal.shell]
 program = "tmux"
+args = ["new", "-A", "-s", "main"]
+
+[[keyboard.bindings]]
+chars = "\u0002c"
+key = "T"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002x"
+key = "W"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002d"
+key = "D"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002p"
+key = "["
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002n"
+key = "]"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002:"
+key = ";"
+mods = "Command"
